@@ -1,0 +1,404 @@
+@charset "utf-8"
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+html {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+/*HEADER*/
+#cookie {
+	width: 100%;
+	min-height: 1.26%;
+	/*72px*/
+	background-color: #194277;
+	text-align: center;
+}
+header {
+	width: 100%;
+	min-height: 10.535%;
+	/*872px*/
+	max-height: auto;
+	background-color: #3695ff;
+	background-image: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+}
+/*cookie*/
+#cookie span {
+	margin-right: 1.6em;
+	width: 17.3%;
+	height: 0.75em;
+	color: #ffffff;
+	font-family: Lato, sans-serif;
+	font-size: 0.75em;
+	font-weight: 400;
+	line-height: 2.6em;
+}
+#accept {
+	margin: 1em;
+	min-width: 8.3%;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #ffffff;
+	padding-left: 2.3em;
+}
+#accept span {
+	width: 2%;
+	height: 0.75em;
+	color: #194277;
+	font-family: Lato, sans-serif;
+	font-size: 0.9em;
+	font-weight: 700;
+	line-height: 1em;
+	letter-spacing: 0.55px;
+}
+/*MENU*/
+.bar {
+	display: block;
+	margin-left: 88.5%;
+	width: 2em;
+	height: 0.3em;
+	margin-bottom: -0.7em;
+	border-radius: 15px;
+	border-color: white;
+	background-color: white;
+}
+/*--------------------
+-------СТИЛІ КОЛА-----
+----------------------*/
+.circle {
+	display: block;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin: 0;
+}
+#three-circle {
+	margin-bottom: 2.3em;
+}
+#small {
+	margin-top: -6.525em;
+	/*Вираховується так:
+		-(("ширина наступного по розміру елементу(bigger)" - 
+			"ширина цього елементу(small)")/2 +
+			"ширина цього елементу")
+			Тобто: 
+			-((10.25em - 8.8em)/2 + 8.8em) = -9.525em
+	*/
+	margin-left: calc(50% - 5.8em / 2);
+	width: 5.8em;
+	height: 5.8em;
+}
+#bigger {	
+	margin-top: -7.925em;
+	margin-left: calc(50% - 7.25em / 2);
+	width: 7.25em;
+	height: 7.25em;
+	opacity: 0.09;
+	transition: 0.5s;
+}
+#biggest {
+	margin-top: 1.9em;
+	/*Відступ від cookie*/
+	margin-left: calc(50% - 8.6em / 2);
+	width: 8.6em;
+	height: 8.6em;
+	opacity: 0.06;
+	transition: 0.5s;
+}
+#biggest:hover {
+	opacity: 0.15;
+}
+#bigger:hover {
+	opacity: 0.2;
+}
+
+/*--------------------
+-------СТИЛІ КОЛА-----
+----------------------*/
+/*ЗАГОЛОВОК*/
+.h {
+	display: block;
+	margin-left: 21%;
+	width: 58%;
+	color: white;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+#headline {
+	height: 1.5em;
+	font-size: 2em;
+	font-weight: 650;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+#description {
+	margin-top: 1em;
+	height: 1em;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 35px;
+	letter-spacing: 0.4px;
+}
+/*--------------------
+--------BUTTON--------
+----------------------*/
+.hire-me {
+	width: 7.5em;
+	height: 3em;
+	border-radius: 28px;
+	background-color: #ffffff;
+	color: #3695ff;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+}
+.hire-me {
+	margin-top: 4.7em;
+	margin-left: calc((100% - 7.5em)/2);
+	overflow: hidden;
+	transition: 0.5s;
+}
+.hire-me:hover {
+	transition: 1s;
+	color: white;
+	background-color: #3686FE;
+	border: solid #3686FE;
+}
+
+/*--------------------
+--------BUTTON--------
+----------------------*/
+header .hire-me {
+	margin-top: 4.7em;
+	margin-left: calc((100% - 7.5em)/2);
+}
+#arrow:after {
+	content: '\2193';
+	font-size: 2em;
+	color: #ffffff;
+	opacity: 0.8;
+	transition-duration: .2s;
+}
+#arrow {
+	margin: 6em 2% 1em 2%;
+	width: 96%;
+	text-align: center;
+	height: 4em;
+}
+/*--------------------
+--------HEADER--------
+----------------------*/
+
+/*BODY*/
+.topic {
+	display: block;
+	margin-bottom: 1.5em;
+	width: 100%;
+	height: 0.75em;
+	background-image: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+	text-align: center;
+	background-clip: text;
+	color: #3677fd;
+	font-family: Lato, sans-serif;
+	font-size: 2.3em;
+	font-weight: 100;
+	line-height: 35.12px;
+}
+
+
+#about-me {
+	width: 100%;
+	min-height: 10%;
+	/*405px*/
+}
+#about-me span{
+	padding-top: 1.5em;
+}
+#about-me p{
+	display: block;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	margin-left: 23%;
+	width: 54%;
+	text-align: center;
+	color: #5a5a5a;
+	font-family: Lato, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 35px;
+}
+
+
+#expert-in {
+	padding-top: 1.5em;
+	width: 100%;
+	min-height: 28.3%;
+	max-height: auto;
+	/*1145px*/
+	background-color: #f1f8ff;
+}
+#expert-in span {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+#expert-in ul {
+	display: block;
+	margin-left: 17%;
+	padding: 0;
+	width: 70%;
+	/*border: 2px solid red;*/
+}
+#expert-in li {
+	display: inline-block;
+	margin: 0 2% 5em 0;
+	width: 30%;
+	text-align: center;
+	/*border: 2px solid black;*/
+}
+#expert-in img{
+	margin-bottom: 2em;
+	width: 3.5em;
+}
+#phone img{
+	width: 2em;
+}
+#expert-in a {
+	margin: 2em 0 1em 0;
+	color: #3677fd;
+	font-family: Lato, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+#expert-in p {
+	color: #5a5a5a;
+	font-family: Lato, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+#expert-in a:hover{
+	color: #AEEFFF;
+}
+
+
+#latest-works {
+	padding-top: 1.5em;
+	width: 100%;
+	min-height: 25.15%;
+	/*1019px*/
+}
+#latest-works ul {
+	display: block;
+	margin-left: 17%;
+	padding: 0;
+	width: 70%;
+}
+#latest-works li{
+	display: inline-block;
+	margin: 0 1em 5em 0;
+	width: 30%;
+	height: 12.75em;
+	border-radius: 10px;
+	border: #f4f4f4;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+#latest-works img {
+	height: 10.75em;
+	transition: 1s;
+	z-index: 1;
+}
+
+#latest-works-1 img, 
+#latest-works-3 img,
+#latest-works-4 img,
+#latest-works-6 img
+{
+	width: 98%;
+}
+#latest-works-1 img,
+#latest-works-2 img,
+#latest-works-3 img
+{
+	margin-top: 1em;
+}
+#latest-works img:hover {
+	height: 13em;
+	z-index: 2;
+	box-shadow: 10 10 10 10;
+}
+#latest-works-1 img:hover, 
+#latest-works-3 img:hover,
+#latest-works-4 img:hover,
+#latest-works-6 img:hover
+{
+	width: 118.5%;
+}
+
+#clients {
+	padding: 1.5em;
+	width: 100%;
+	min-height: 8%;
+	max-height: auto;
+	/*363px*/
+	background-color: #f1f8ff;
+	text-align: center;
+}
+#clients img {
+	width: 55em;
+}
+/*BODY END*/
+
+/*FOOTER*/
+footer {
+	position: absolute;
+	width: 100%;
+	min-height: 5.25%;
+	max-height: auto;
+	/*247px*/
+	background-color: #e8f3ff;
+	background-image: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+	text-align: center;
+}
+footer .hire-me {
+	margin: 2em;
+}
+footer span {
+	height: 3em;
+	color: #ffffff;
+	font-size: 32px;
+	font-weight: 300;
+	font-family: "Lato Light", sans-serif;	
+}
+#bold {
+	color: #ffffff;
+	font-family: "Lato - Bold", sans-serif;
+	font-weight: 700;
+}
+
+/*-----------------------------------------
+-------------------------------------------
+-----------СОБЫТИЯ ПРИ НАЖАТИИ-------------
+-------------------------------------------
+-------------------------------------------
+*/
+
